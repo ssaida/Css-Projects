@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: silver;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0.5rem;
+}
+nav{
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+h2{
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    border-bottom: 1px solid #000;
+}
+li a{
+    display: block;
+}
+ul li a,
+a:visited{
+    text-decoration: none;
+    color: #333;
+}
+a:hover, a:focus{
+    background-color: #333;
+    color: whitesmoke;
+}
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
